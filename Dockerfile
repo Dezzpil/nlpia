@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook
+FROM jupyter/datascience-notebook:python-3.9.5
 
 USER root
 WORKDIR /home/jovyan/nlpia

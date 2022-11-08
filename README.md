@@ -173,6 +173,7 @@ This might take a few minutes to download the jupyter docker image:
 
 ```bash
 docker build -t nlpia .
+docker run -p 8888:8888 -v %ABSOLUTE_PATH_TO_SHARED_FOLDER_WITH_YOUR_DATA%:/home/jovyan/work nlpia
 ```
 
 ### 5.3.2. Run your image
