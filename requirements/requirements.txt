@@ -1,3 +1,5 @@
+annoy
+pymystem3
 AIML-Bot
 coverage
 cython

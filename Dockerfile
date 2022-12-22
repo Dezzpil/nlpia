@@ -4,6 +4,7 @@ USER root
 WORKDIR /home/jovyan/nlpia
 COPY . .
 
+RUN apt update && apt install -y g++ gcc python3-dev
 RUN pip install --upgrade pip
 RUN pip install -e .
 
